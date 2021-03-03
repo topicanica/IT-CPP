@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Kolaci">
+      <UniqueIdentifier>{4cfc6596-60cc-4b7e-ba8d-401f817775ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesni">
+      <UniqueIdentifier>{d2b9eee3-7805-4126-81f0-71d0773c47a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vege">
+      <UniqueIdentifier>{dd77ba72-561a-4170-b7bf-5f8d29619059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mlijecni">
+      <UniqueIdentifier>{1300037e-f6d9-43b8-b0fc-7713acdd0544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kolaci">
+      <UniqueIdentifier>{7f95e328-348a-436f-9f91-d9ebf03c5884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesni">
+      <UniqueIdentifier>{9c49667d-babc-4111-b080-4ab80c8219bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vege">
+      <UniqueIdentifier>{6833087c-5a92-4e35-a2ef-9be6eefe58cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mlijecni">
+      <UniqueIdentifier>{2b78f389-77e9-494e-a5cf-c006750488ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Food.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kolaci.h">
+      <Filter>Header Files\Kolaci</Filter>
+    </ClInclude>
+    <ClInclude Include="Madjarica.h">
+      <Filter>Header Files\Kolaci</Filter>
+    </ClInclude>
+    <ClInclude Include="Krempita.h">
+      <Filter>Header Files\Kolaci</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesni.h">
+      <Filter>Header Files\Mesni</Filter>
+    </ClInclude>
+    <ClInclude Include="Torta.h">
+      <Filter>Header Files\Kolaci</Filter>
+    </ClInclude>
+    <ClInclude Include="Meso.h">
+      <Filter>Header Files\Mesni</Filter>
+    </ClInclude>
+    <ClInclude Include="Prsut.h">
+      <Filter>Header Files\Mesni</Filter>
+    </ClInclude>
+    <ClInclude Include="Vege.h">
+      <Filter>Header Files\Vege</Filter>
+    </ClInclude>
+    <ClInclude Include="Tofu.h">
+      <Filter>Header Files\Vege</Filter>
+    </ClInclude>
+    <ClInclude Include="Riza.h">
+      <Filter>Header Files\Vege</Filter>
+    </ClInclude>
+    <ClInclude Include="Hummus.h">
+      <Filter>Header Files\Vege</Filter>
+    </ClInclude>
+    <ClInclude Include="Mlijecni.h">
+      <Filter>Header Files\Mlijecni</Filter>
+    </ClInclude>
+    <ClInclude Include="Mlijeko.h">
+      <Filter>Header Files\Mlijecni</Filter>
+    </ClInclude>
+    <ClInclude Include="Jogurt.h">
+      <Filter>Header Files\Mlijecni</Filter>
+    </ClInclude>
+    <ClInclude Include="Sir.h">
+      <Filter>Header Files\Mlijecni</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Food.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunka.h">
+      <Filter>Header Files\Mesni</Filter>
+    </ClCompile>
+    <ClCompile Include="Kolaci.cpp">
+      <Filter>Source Files\Kolaci</Filter>
+    </ClCompile>
+    <ClCompile Include="Madjarica.cpp">
+      <Filter>Source Files\Kolaci</Filter>
+    </ClCompile>
+    <ClCompile Include="Krempita.cpp">
+      <Filter>Source Files\Kolaci</Filter>
+    </ClCompile>
+    <ClCompile Include="Torta.cpp">
+      <Filter>Source Files\Kolaci</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesni.cpp">
+      <Filter>Source Files\Mesni</Filter>
+    </ClCompile>
+    <ClCompile Include="Meso.cpp">
+      <Filter>Source Files\Mesni</Filter>
+    </ClCompile>
+    <ClCompile Include="Prsut.cpp">
+      <Filter>Source Files\Mesni</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunka.cpp">
+      <Filter>Source Files\Mesni</Filter>
+    </ClCompile>
+    <ClCompile Include="Tofu.cpp">
+      <Filter>Source Files\Vege</Filter>
+    </ClCompile>
+    <ClCompile Include="Vege.cpp">
+      <Filter>Source Files\Vege</Filter>
+    </ClCompile>
+    <ClCompile Include="Hummus.cpp">
+      <Filter>Source Files\Vege</Filter>
+    </ClCompile>
+    <ClCompile Include="Riza.cpp">
+      <Filter>Source Files\Vege</Filter>
+    </ClCompile>
+    <ClCompile Include="Mlijecni.cpp">
+      <Filter>Source Files\Mlijecni</Filter>
+    </ClCompile>
+    <ClCompile Include="Mlijeko.cpp">
+      <Filter>Source Files\Mlijecni</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogurt.cpp">
+      <Filter>Source Files\Mlijecni</Filter>
+    </ClCompile>
+    <ClCompile Include="Sir.cpp">
+      <Filter>Source Files\Mlijecni</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
